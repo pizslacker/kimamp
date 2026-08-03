@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
 
     // 2. Create Window and Renderer
     printf("[SYSTEM] Creating window (800x600)...\n");
-    SDL_Window* window = SDL_CreateWindow("Winamp Clone - C/SDL2", 
+    SDL_Window* window = SDL_CreateWindow("k!Mamp - C/SDL2", 
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 275, 116, SDL_WINDOW_SHOWN);
     if (!window) {
         printf("[SYSTEM] FATAL ERROR: Window creation failed: %s\n", SDL_GetError());
