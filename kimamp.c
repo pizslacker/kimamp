@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
     }
 
     // 2. Create Window and Renderer
-    printf("[SYSTEM] Creating window (800x600)...\n");
+    printf("[SYSTEM] Creating window (275x116)...\n");
     SDL_Window* window = SDL_CreateWindow("k!Mamp - C/SDL2", 
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 275, 116, SDL_WINDOW_SHOWN);
     if (!window) {
