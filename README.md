@@ -2,7 +2,7 @@
 
 Simple fun little project where I try to make a **Winamp** clone in `C/SDL2` on Linux.
 
-    For now it is pretty much barebones and hardcoded, i.e: no widgets, file dialogues, settings, etc.
+    For now it is pretty much barebones and hardcoded, i.e: no widgets, settings, etc.
     Since it utilizes SDL2 it works on pretty much any distro, or *nix for that matter :P
 
 It needs the following assets in the same directory to function:
