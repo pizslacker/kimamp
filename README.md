@@ -6,7 +6,7 @@ For now it is pretty much barebones and hardcoded, i.e: no widgets, file dialogu
 
 It needs the following assets in the same directory to function:
 - `base.wsz` (any classic Winamp 2.x skin renamed to this)
-- `test-mp3` for audio playback
+- `test.mp3` for audio playback
 
 ## Required:
 ```bash
