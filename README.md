@@ -2,7 +2,7 @@
 
 Simple fun little project where I try to make a **Winamp** clone in `C/SDL2` on Linux.
 
-For now it is pretty much hardcoded, i.e: no widgets, file dialogues, etc.
+For now it is pretty much hardcoded, i.e: no widgets, file dialogues, settings, etc.
 
 It needs the following assets in the same directory to function:
 - `base.wsz` (any classic Winamp 2.x skin renamed to this)
