@@ -1,6 +1,6 @@
 # k!Mamp
 
-## Requisites:
+## Required:
 ```bash
 sudo apt install build-essential libsdl2-dev libsdl2-mixer-dev
 ```
