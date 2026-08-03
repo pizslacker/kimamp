@@ -4,7 +4,7 @@ Simple fun little project where I try to make a **Winamp** clone in `C/SDL2`.
 
 For now it is hardcoded, no widgets, file dialogues, etc.
 
-It needs the following items in the same directory:
+It needs the following assets in the same directory to function:
 - `base.wsz` (any classic Winamp 2.x skin renamed to this)
 - `test-mp3` for audio playback
 
