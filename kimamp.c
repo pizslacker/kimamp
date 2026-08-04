@@ -116,7 +116,21 @@ int main(int argc, char* argv[]) {
     Mix_Music *bgm = Mix_LoadMUS("test.mp3");
     
     if (bgm) {
-        printf("[AUDIO] Track loaded successfully. Starting playback loop...\n");
+        printf("[AUDIO] Track loaded successfully.\n");
+        
+        // --- Read and Print ID3 Metadata using SDL_Mixer ---
+        const char* title = Mix_GetMusicTitleTag(bgm);
+        const char* artist = Mix_GetMusicArtistTag(bgm);
+        const char* album = Mix_GetMusicAlbumTag(bgm);
+        
+        printf("[AUDIO] --- Track Metadata ---\n");
+        // We check for both NULL and empty strings, as SDL_mixer can return an empty string if a tag is missing
+        printf("[AUDIO] Title:  %s\n", (title && title[0] != '\0') ? title : "Unknown Title");
+        printf("[AUDIO] Artist: %s\n", (artist && artist[0] != '\0') ? artist : "Unknown Artist");
+        printf("[AUDIO] Album:  %s\n", (album && album[0] != '\0') ? album : "Unknown Album");
+        printf("[AUDIO] ----------------------\n");
+
+        printf("[AUDIO] Starting playback loop...\n");
         Mix_PlayMusic(bgm, -1); 
     } else {
         printf("[AUDIO] ERROR: Could not load 'test.mp3'. Running visual-only mode.\n");
