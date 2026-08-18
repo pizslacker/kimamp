@@ -11,7 +11,7 @@ It needs the following assets in the same directory to function:
 
 ## Required:
 ```bash
-sudo apt install build-essential libsdl2-dev libsdl2-mixer-dev
+sudo apt-get install build-essential libsdl2-dev libsdl2-mixer-dev
 ```
 
 ## Compile:
